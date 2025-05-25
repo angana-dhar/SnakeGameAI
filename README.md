@@ -24,11 +24,11 @@ matplotlib: For plotting the agent's performance over time.
 
 pygame: For implementing the Snake game environment.
 
-You can install the dependencies using pip:
+we can install the dependencies using pip:
 
-bash
-Copy code
+
 pip install torch numpy matplotlib pygame
+
 How It Works
 Agent Class (Agent.py): The agent interacts with the Snake game by observing the current state (position of the snake, food, and obstacles) and selecting an action (move up, down, left, or right). The agent learns over time by storing experiences and improving its model using the Q-learning algorithm.
 
